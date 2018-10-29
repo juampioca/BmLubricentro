@@ -1,0 +1,362 @@
+
+
+body{
+  background-color: white;
+}
+
+.barra{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+  height: 75px;
+
+}
+
+.barra a{
+  color: #000000;
+  padding-top: 4px;
+}
+
+.barra2{
+  display: none;
+}
+
+.logo{
+  margin-top: 75px;
+  width: 100%;
+  height: 720px;
+  background-image: url("../images/taller1.jpg");
+
+  background-size: 100% 100%;
+}
+
+.logo img{
+  width: 450px;
+  height: 450px;
+  padding-top: 34px
+
+}
+
+.mecanica{
+  width: 100%;
+  height: 720px;
+  background-image: url("../images/fondoMecanica.jpg");
+  background-attachment: fixed, fixed;
+  background-size: 100% 100%;
+}
+
+.mecanica img{
+  width: 400px;
+  height: 400px;
+  padding: 15px;
+  margin-top: 150px;
+}
+
+.mecanica p{
+  width: 100%;
+  font-family: inherit;
+  font-size: 25px;
+  color: white;
+  padding-bottom: 34px;
+
+}
+
+.textoMecanica{
+  background-color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 370px;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-top: 165px;
+
+  display: none;
+
+}
+
+.textoMecanica div{
+  margin-right: 38px;
+  margin-left: 40px;
+
+}
+
+.textoMecanica img{
+  border-radius: 50%;
+  width: 138px;
+  height:138px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.textoMecanica p{
+  text-align: center;
+  font-size: 12px;
+  height: 15px;
+}
+
+.autos img{
+  width: 100%;
+}
+
+.lubricentro{
+  width: 100%;
+  height: 720px;
+  background-image: url("../images/fondoLubricante.png");
+  background-attachment: fixed, fixed;
+  background-size: 100% 100%;
+}
+
+.textoLubricentro{
+  background-color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 384px;
+  padding: 30px;
+  padding-top: 10px;
+  margin-top: 165px;
+  display: none;
+
+}
+
+.lubricentro img{
+  width: 400px;
+  height: 400px;
+  padding: 15px;
+  margin-top: 150px;
+}
+
+.lubricentro p{
+  width: 100%;
+  font-family: inherit;
+  font-size: 25px;
+  color: white;
+}
+
+.textoLubricentro img{
+  border-radius: 50%;
+  width: 150px;
+  height:150px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.textoLubricentro div{
+  margin-right: 38px;
+  margin-left: 40px;
+}
+
+.textoLubricentro p{
+  text-align: center;
+  font-size: 14px;
+  height: 15px;
+}
+
+.lucesTablero{
+  background-image: url("../images/tablero.jpg");
+  width: 100%;
+  height: 480px;
+  background-size: 100% 100%;
+}
+
+.luces{
+  width: 700px;
+}
+
+.luces1{
+  padding-top: 18px;
+}
+
+.lucesTablero .luces img{
+  width: 14%;
+  height: 14%;
+  margin: 5px;
+}
+
+.textoLuces div{
+  background-color: black;
+  width: 400px;
+  height: 400px;
+  margin-left: 135px;
+  margin-top: 40px;
+  box-shadow: 0px 3px 8px 0px rgba(0,255,0,0.75);
+  display: none;
+}
+
+.textoLuces h2{
+  color: white;
+  font-family: system-ui;
+  padding: 30px;
+}
+
+.textoLuces p{
+  color: white;
+  font-family: system-ui;
+  padding: 30px;
+}
+
+.textoLuces .textoAbs{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoAireNeumaticos{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoAlgoMotor{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoAlgoMotor h2{
+  color: white;
+  font-family: system-ui;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.textoLuces .textoAlgoMotor p{
+  color: white;
+  font-family: system-ui;
+  padding: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.textoLuces .textoCajaAutomatica{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoCombustible{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoControlEstabilidad{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoControlEstabilidad h2{
+  color: white;
+  font-family: system-ui;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+.textoLuces .textoControlEstabilidad p{
+  color: white;
+  font-family: system-ui;
+  padding: 30px;
+  padding-top: 10px;
+}
+
+.textoLuces .textoEpc{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoFiltroDiesel{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoFiltroDiesel h2{
+  padding-bottom: 0px;
+}
+
+.textoLuces .textoFiltroDiesel p{
+  color: white;
+  font-family: system-ui;
+  padding: 29px;
+  padding-top: 0px;
+  font-size: 14px;
+}
+
+.textoLuces .textoLiquidoParabrisas{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoLiquidoParabrisas h2{
+  padding-bottom: 0px;
+}
+
+.textoLuces .textoLlaveVehiculo{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoLucesQuemadas{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoMotor{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoNivelAceite{
+  box-shadow: 0px 3px 8px 0px rgba(230,153,0,0.75);
+}
+
+.textoLuces .textoAirbag{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.textoLuces .textoBateria{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.textoLuces .textoBaul{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.textoLuces .textoCapot{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.textoLuces .textoCinturonSeguridad{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.textoLuces .textoFrenoDeMano{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.textoLuces .textoLiquidoHidraulico{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.textoLuces .textoPresionAceite{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.textoLuces .textoPuertasAbiertas{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.textoLuces .textoTemperatura{
+  box-shadow: 0px 3px 8px 0px rgba(255,0,0,0.75);
+}
+
+.contacto{
+  width: 100%;
+  height: 720px;
+  background-image: url("../images/fondoContacto.jpg");
+  background-attachment: fixed, fixed;
+  background-size: 100% 100%;
+}
+
+.datosContacto{
+  padding-top: 168px;
+}
+
+.datosContacto div{
+  padding: 15px;
+}
+
+.datosContacto p{
+  color: white;
+  font-family: system-ui;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.contacto .mapa{
+  margin-top: 135px;
+}
